@@ -2,7 +2,7 @@
 import mongoose from "mongoose";
 
 //fazemos com que o mongoose conecte-se com meu banco de dados
-mongoose.connect("mongodb+srv://guilhermeSalviano:Anb37905*@alura.s112pr5.mongodb.net/")
+mongoose.connect("mongodb+srv://guilhermeSalviano:<password>@alura.s112pr5.mongodb.net/")
 
 //criamos uma variável que recebe a conexão do mongosse com o banco
 let db = mongoose.connection
